@@ -1,0 +1,11 @@
+// @for $i from 1 through 10 {
+//     .class-#{$i} {
+//         font-size: 15px +$i;
+//     }
+// }
+
+@import "./Sass/layout/global-rules";
+
+@import "./Sass/pages/home";
+
+@import"./Sass/components/Media";

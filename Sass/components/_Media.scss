@@ -1,0 +1,36 @@
+@media(min-width: 768px) {
+    .page-wrapper {
+        height: 165vh;
+
+        .footer {
+            flex-direction: row;
+            gap: 22px;
+
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 50px;
+    }
+
+    li {
+        position: relative;
+        left: 1em;
+    }
+
+    .footer-section {
+        flex: 1;
+        padding: 0 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
