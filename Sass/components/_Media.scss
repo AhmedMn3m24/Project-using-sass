@@ -1,6 +1,8 @@
+@import"../components/Variables";
+
 @media(min-width: 768px) {
     .page-wrapper {
-        height: 165vh;
+        height: 190vh;
 
         .footer {
             flex-direction: row;
@@ -12,7 +14,6 @@
 
 @media (min-width: 1200px) {
     .footer {
-
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -32,5 +33,20 @@
     .footer-bottom {
         text-align: center;
         margin-top: 20px;
+    }
+
+    .page-wrapper .colors {
+        font-size: 17px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 1px;
+        margin-left: 10px;
+
+        &:hover {
+            transform: translateY(-10px);
+            /* الحركة للأعلى */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            /* تأثير الظل */
+            cursor: pointer;
+        }
     }
 }
