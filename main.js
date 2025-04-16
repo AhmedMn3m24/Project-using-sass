@@ -9,9 +9,9 @@ const images = [
     "https://venushome.ca/wp-content/uploads/2025/03/PERLA-3-1-700x700.jpg",
     "https://venushome.ca/wp-content/uploads/2025/03/PERLA-3-700x700.jpg",
     "https://www.kabbanifurniture.com/cdn/shop/files/LM-78765-CH_WT_1800x1800.jpg?v=1742198923",
-    "https://venushome.ca/wp-content/uploads/2024/08/Untitled-design-100-1-700x700.jpg",
-    "https://venushome.ca/wp-content/uploads/2025/03/LORENZO-103-700x700.jpg",
-    "https://venushome.ca/wp-content/uploads/2025/03/LORENZO-103-700x700.jpg"
+    "https://www.kabbanifurniture.com/cdn/shop/files/LM-78765-CH_WT_1800x1800.jpg?v=1742198923",
+    "https://www.kabbanifurniture.com/cdn/shop/files/LM-78765-CH_WT_1800x1800.jpg?v=1742198923",
+    "https://www.kabbanifurniture.com/cdn/shop/files/LM-78765-CH_WT_1800x1800.jpg?v=1742198923",
 ];
 
 const imageColors = [
@@ -70,7 +70,6 @@ function renderImages() {
         img.src = src;
         img.alt = `image-${index}`;
         img.className = "img-box";
-
         const btnWrapper = document.createElement("div");
         btnWrapper.className = "card-buttons d-flex gap-2 mt-2";
 
