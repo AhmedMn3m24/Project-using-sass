@@ -11,7 +11,7 @@ const images = [
     "https://www.kabbanifurniture.com/cdn/shop/files/LM-78765-CH_WT_1800x1800.jpg?v=1742198923",
     "https://venushome.ca/wp-content/uploads/2024/08/Untitled-design-100-1-700x700.jpg",
     "https://venushome.ca/wp-content/uploads/2025/03/LORENZO-103-700x700.jpg",
-    "https:venushome.ca/wp-content/uploads/2024/10/neww-2-700x538.jpg",
+    "https://venushome.ca/wp-content/uploads/2025/03/LORENZO-103-700x700.jpg"
 ];
 
 const imageColors = [
